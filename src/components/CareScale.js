@@ -1,7 +1,6 @@
 import Sun from '../assets/sun.svg'
 import Water from '../assets/water.svg'
 
-
 const quantityLabel = {
 	1: 'peu',
 	2: 'modérément',
@@ -35,5 +34,4 @@ function CareScale({ scaleValue, careType }) {
 		</div>
 	)
 }
-
 export default CareScale
